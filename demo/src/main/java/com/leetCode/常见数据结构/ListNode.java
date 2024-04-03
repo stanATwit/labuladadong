@@ -9,6 +9,10 @@ public class ListNode {
     int val; //当前值，
     ListNode next;  //指向下一个节点
 
+    public ListNode(int val) {
+        this.val = val;
+    }
+
     /*迭代访问*/
     void traverse1(ListNode head) {
         for(ListNode p = head; p != null;p = p.next){
